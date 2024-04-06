@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
