@@ -23,7 +23,7 @@ body {
 
 header {
     width: 100vw;
-    height: 18vh;
+    height: 15vh;
     background: rgba(1,1,0,255);
 }
 
@@ -43,45 +43,31 @@ header {
     font-size: 1.4em;
     letter-spacing: 0.3em;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 
 .header-h2 {
     font-size: 0.9em;
     letter-spacing: 0.3em;
     cursor: pointer;
+    display: none;
 }
 
 .menu-content .list-items {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 5px;
+    gap: 0.1em;
     padding-top: 20px;
     font-size: 0.7em;
 }
 
 .menu-content .list-items a{
     text-decoration: none;
-    color: rgba(254, 255, 254, 255);
+    color: rgba(218, 73, 23, 255);
     padding: 1em;
-    transform: 2ms ease-in;
-    position: relative;
-}
-
-.menu-content .list-items a:before{
-    content: '';
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: rgba(218, 73, 23, 255);
-    transition: all 1.5s ease;
-}
-
-.menu-content .list-items a:hover:before{
-    width: 100%;
+    font-weight: bolder;
 }
 
 main {
