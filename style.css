@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(17, 17, 17, 0.709), rgba(20, 20, 20, 0.728)), url(imagens/pexels-kampus-production-6540704.jpg);
+    background: linear-gradient(rgba(17, 17, 17, 0.709), rgba(20, 20, 20, 0.728)), url(imagens/pexels-mikhail-nilov-6620743.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -23,8 +23,8 @@ body {
 
 header {
     width: 100vw;
-    height: 7vh;
-    background: rgba(22, 22, 22, 0.2);
+    height: 18vh;
+    background: rgba(1,1,0,255);
 }
 
 .menu-content {
@@ -43,6 +43,7 @@ header {
     font-size: 1.4em;
     letter-spacing: 0.3em;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .header-h2 {
@@ -62,7 +63,7 @@ header {
 
 .menu-content .list-items a{
     text-decoration: none;
-    color: #ffffff;
+    color: rgba(254, 255, 254, 255);
     padding: 1em;
     transform: 2ms ease-in;
     position: relative;
@@ -71,14 +72,79 @@ header {
 .menu-content .list-items a:before{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     width: 0;
     height: 1px;
-    background-color: rgb(255, 255, 0);
+    background-color: rgba(218, 73, 23, 255);
     transition: all 1.5s ease;
 }
 
 .menu-content .list-items a:hover:before{
+    width: 100%;
+}
+
+main {
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-main {
+    width: 80vw;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn button {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ffffff9d;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btn button:hover{
+    color: rgba(218, 73, 23, 255);
+    border: none;
+}
+
+.btn button:before {
+    content: '';
+    border-radius: 20px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 0%;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btn button:hover:before {
     width: 100%;
 }
