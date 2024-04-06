@@ -23,25 +23,25 @@ body {
 
 header {
     width: 100vw;
-    height: 15vh;
+    height: 13vh;
     background: rgba(1,1,0,255);
 }
 
 .menu-content {
     text-transform: uppercase;
     height: 100vh;
-    width: 98vw;
+    width: 95vw;
     display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 1em;
-    padding-top: 10px;
+    padding: 0.5em;
 }
 
 .header-h1 {
     font-size: 1.4em;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     cursor: pointer;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
@@ -59,7 +59,7 @@ header {
     justify-content: center;
     list-style: none;
     gap: 0.1em;
-    padding-top: 20px;
+    padding-top: 1em;
     font-size: 0.7em;
 }
 
@@ -88,7 +88,7 @@ main {
     width: 80vw;
     font-size: 2em;
     margin-bottom: 1.5em;
-    text-align: center;
+    text-align: justify;
     color: #ffffff;
 }
 
@@ -111,26 +111,4 @@ main {
     border-radius: 20px;
     position: relative;
     transition: 1.5s;
-}
-
-.btn button:hover{
-    color: rgba(218, 73, 23, 255);
-    border: none;
-}
-
-.btn button:before {
-    content: '';
-    border-radius: 20px;
-    bottom: 0px;
-    left: 0px;
-    position: absolute;
-    width: 0%;
-    height: 60px;
-    background-color: rgb(61, 61, 61);
-    z-index: -1;
-    transition: 1s;
-}
-
-.btn button:hover:before {
-    width: 100%;
 }
