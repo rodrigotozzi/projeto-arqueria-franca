@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(17, 17, 17, 0.709), rgba(20, 20, 20, 0.408)), url(imagens/pexels-mikhail-nilov-6620743.jpg);
+    background: linear-gradient(rgba(17, 17, 17, 0.709), rgba(20, 20, 20, 0.233)), url(../imagens/pexels-mikhail-nilov-6620743.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
