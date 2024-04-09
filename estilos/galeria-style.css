@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(17, 17, 17, 0.709), rgba(20, 20, 20, 0.233)), url(../imagens/pexels-mikhail-nilov-6620743.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background: rgba(1,1,0,255);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100vh;
+    width: 95vw;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+}
+
+.header-h1 {
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.menu-content .list-items {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 1em;
+    font-size: 0.6em;
+}
+
+.menu-content .list-items a{
+    text-decoration: none;
+    color: rgba(218, 73, 23, 255);
+    padding: 1em;
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.533);
+}
+
+#img-a {
+    height: 200px;
+    width: 280px;
+    margin: 15px;
+    border: 2px solid rgba(218, 72,23, 255);
+    border-radius: 1em;
+}
+
+#img-b {
+    height: 280px;
+    width: 200px;
+    margin: 15px;
+    border: 2px solid rgba(218, 72,23, 255);
+    border-radius: 1em;    
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    background-color: rgba(1,1,0,255);
+    align-items: left;
+    padding: 0.3em;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
