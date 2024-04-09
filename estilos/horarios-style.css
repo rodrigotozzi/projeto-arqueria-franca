@@ -51,9 +51,8 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 0.1em;
     padding-top: 1em;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 .menu-content .list-items a{
