@@ -39,6 +39,14 @@ header {
     padding: 0.5em;
 }
 
+.header-h1 {
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
 .menu-content .list-items {
     display: flex;
     justify-content: center;
